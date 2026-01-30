@@ -1,6 +1,36 @@
-node_modules
-dist
-.env
+# Dependencies
+**/node_modules
+**/dist
+**/build
+
+# Environment
+**/.env
+**/.env.*
+!.env.example
+
+# OS files
 .DS_Store
-coverage
+Thumbs.db
+
+# IDEs
 .vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+**/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Verification scripts (temp)
+**/verify_admin.js
+**/verify_rpc.js
+**/test_rpc.ts
+**/verify_rpc.js
+**/src/modules/rpc/test_rpc.ts
